@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Shrikhand&display=swap');
+            
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.barra{
+   display: flex;
+   
+}
+
+.navegacao{
+    display: flex;
+}
+
+header{
+    margin: 20px;
+    margin-top: 15px;
+
+}
+
+.navegacao li{
+    list-style-type: none;
+    display: flex;
+     margin: 40px;
+   margin-top: 40px;
+   font-size: 16px;
+}
+
+h1{
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+    font-kerning: 25px;
+  
+}
+
+.image-container{
+    position: relative;
+    
+}
+
+.image-text{
+    position: relative;
+    top: 90%;
+    left: 22%;
+    transform: translate(-22%, -140%);
+    z-index: 1;
+    color: bisque;
+    font-size: 70px;
+    font-weight: 900px;
+}
+
+
+h2{
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+    font-kerning: 18px;
+    font-size: 50px;
+    margin-top: 10px;
+    color: #bf665e ;
+
+
+}
+
+/*verm #bf665e, roxo #6e6273,  verd #76996e, bege#bc9c8d*/
+p{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 170px;
+    margin-top: 25px;
+}
+
+.sobre{
+    margin-left: 550px;
+   
+}
+
+.porque{
+    margin-left: 550px;
+   
+}
+
+body{
+    background-color:  #ece8e6;
+}
+
+a{
+    color: #6e6273;
+    text-decoration-line: none;
+}
